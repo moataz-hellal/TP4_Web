@@ -2,64 +2,64 @@ export const db = {
     students : [
         {
             id: 1,
-            name: 'Fatma Laribi',
-            age: 22,
-            gender: "FEMALE",
+            name: 'Amélie',
+            age: 21,
+            gender: "F",
             classroom: 1
         },
         {
             id: 2,
-            name: 'Ahmed Mahfoudhi',
-            age: 22,
-            gender: "MALE",
+            name: 'Bruno',
+            age: 20,
+            gender: "M",
             classroom: 2
         },
         {
             id: 3,
-            name: 'Nadine Boukadida',
+            name: 'Marco',
             age: 22,
-            gender: "FEMALE",
+            gender: "M",
             classroom: 3
         },
         {
             id: 4,
-            name: 'Mohamed Aziz Khayati',
+            name: 'Sasha',
             age: 22,
-            gender: "MALE",
-            classroom: 1
+            gender: "F",
+            classroom: 2
         }
     ],
     classroom: [
         {
             id: 1,
-            designation: 'GL3'
+            designation: 'GL1'
         },{
             id: 2,
             designation: 'GL2'
         },{
             id: 3,
-            designation: 'GL4'
+            designation: 'GL3'
         },
     ],
     todos : [
         {
             id: "1",
-            name:"test1",
-            content:"content 1",
+            name:"name1",
+            content:"content1",
             status : "WAITING",
             user: "2"
         },
         {
             id: "2",
-            name:"test 2",
-            content:"content 2",
+            name:"name2",
+            content:"content2",
             status : "WAITING",
             user : "1"
         },
         {
             id: "3",
-            name:"test 3",
-            content:"content 3",
+            name:"name3",
+            content:"content3",
             status : "IN_PROGRESS",
             user: "1"
         }
@@ -67,14 +67,14 @@ export const db = {
     users : [
         {
             id: "1",
-            name: "Ahmed",
-            email: "ahmed@gmail.com",
-            todos: ["2","3"]
+            name: "Marco",
+            email: "Marcovicii@gmail.com",
+            todos: ["1","2"]
         },
         {
             id: "2",
-            name: "mazen",
-            email: "mazen@gmail.com",
+            name: "Sasha",
+            email: "Sasha@yahoo.com",
             todos: ["1"]
         }
     ]
